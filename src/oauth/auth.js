@@ -1,4 +1,4 @@
-//BUG FIX FOR TWITTER PACKAGE 
+//BUG FIX FOR TWITTER PACKAGE AND USING IN APP BROWSER FROM EXPO
 //This file will be copied into node_modules\react-native-twitter\src\oauth\auth.js for the twitter package
 //https://github.com/Piroro-hs/react-native-twitter/issues/24
 import {Linking} from 'react-native';

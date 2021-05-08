@@ -10,7 +10,7 @@ import {query} from '../util';
 
 function getRequestToken(tokens, callbackUrl, accessType) {
   const method = 'POST';
-  const url = 'https://api.twitter.com/oauth/request_token';
+  const url = 'https://api.twitter.com/1.1/oauth/request_token';
   const body = accessType ? {x_auth_access_type: accessType} : {};
   return request(tokens, url, {method, body}, {oauth_callback: callbackUrl})
     .then((response) => response.text())
